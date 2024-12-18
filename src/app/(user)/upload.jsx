@@ -1,14 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+// UploadScreen.js
+import React from 'react';
+import { SafeAreaView } from 'react-native';
+import UploadForm from '../../components/Upload'
 
-const upload = () => {
+const UploadScreen = () => {
   return (
-    <View>
-      <Text>upload</Text>
-    </View>
-  )
-}
+    <SafeAreaView style={{ flex: 1, backgroundColor: "white" }}>
+      <UploadForm />
+    </SafeAreaView>
+  );
+};
 
-export default upload
-
-const styles = StyleSheet.create({})
+export default UploadScreen;

@@ -12,17 +12,17 @@ const SearchScreen = () => {
     {
       username: "john_doe",
       profilePicture:
-        "https://example.com/profiles/john.jpg",
+        "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
     },
     {
       username: "jane_smith",
       profilePicture:
-        "https://example.com/profiles/jane.jpg",
+        "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
     },
     {
       username: "alice_wonder",
       profilePicture:
-        "https://example.com/profiles/alice.jpg",
+        "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
     },
   ];
 
