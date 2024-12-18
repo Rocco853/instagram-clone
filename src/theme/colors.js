@@ -6,5 +6,6 @@ export const colors = {
     instagramYellow: '#FCAF45',
     background: '#FFFFFF',
     text: '#262626',
+    black: '#000'
   };
   
