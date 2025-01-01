@@ -15,13 +15,13 @@ router.delete("/:id");
 router.get("/find/:id");
 
 // add a view per post (videos)
-router.put("/view/:id", addView);
+router.put("/view/:id");
 
 // sort post by trending
-router.get("/trend", trend);
+router.get("/trend");
 
 // sort posts by random
-router.get("/random", random);
+router.get("/random");
 
 // get post by following
 router.get("/following");
@@ -29,7 +29,7 @@ router.get("/following");
 // get post by tags
 router.get("/tags");
 
-// get posts by searcvh
+// get posts by search
 router.get("/search");
 
 export default router;

@@ -9,6 +9,6 @@ router.post("/");
 router.delete("/:id");
 
 // get the comments on a post
-router.get("/:postId", getComments);
+router.get("/:postId");
 
 export default router;
